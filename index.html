@@ -26,11 +26,17 @@
       background-color: #fff;
       border-radius: 20px;
       box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
+    .logo {
+      width: 33%;
+      margin-bottom: 20px;
     }
 
     label, select, input, button {
       display: block;
-      margin-bottom: 16px;
+      margin: 0 auto 16px auto;
       width: 100%;
       font-size: 18px;
     }
@@ -40,6 +46,7 @@
       border: 1px solid #ccc;
       border-radius: 12px;
       background-color: #fdfdfd;
+      box-sizing: border-box;
     }
 
     button {
@@ -72,12 +79,12 @@
       font-size: 22px;
       line-height: 1.3;
       margin-bottom: 24px;
-      text-align: center;
     }
   </style>
 </head>
 <body>
   <div class="app-container">
+    <img src="icon-512.png" alt="Labelpages logo" class="logo">
     <h2>Calcul de l'épaisseur du dos<br>d'un livre dos carré-collé</h2>
 
     <label for="pages">Nombre de pages :</label>
